@@ -1,5 +1,6 @@
 body {
- background-color: #f4f4f4;
+  background-color: #f4f4f4;
+  margin: 0;
 }
 
 a {
@@ -34,17 +35,25 @@ a {
 .nav a:active {
   color: #e6d1cc;
 }
+/* Getting a fucked problem with this part when viewing in ipad  */
+.quoting {
+  position: fixed;
+  font-size: 0.5em;
+}
 
-#headImage img {
-  width: 100%;
+.fullScreenImage {
+  overflow: hidden;
+  height: 100vh;
 }
 
 .fullScreenImage img {
-  position: static;
+  position: relative;
+  width: 100vw;
   z-index: -1;
+  overflow: hidden;
 }
 
-.fullScreenImage blockquote {
+.fullScreenImage .quoting {
   position: absolute;
   bottom: 20px;
   color: white;
@@ -59,30 +68,23 @@ a {
   color: #383838;
 }
 
-.menu_items {
+.menuItems {
   list-style: none;
-  overflow: auto;
   padding: 0;
 }
 
-.menu_items li {
-  float: left;
-  padding-left: 10px;
+.menuItems #firstImage {
+  margin-bottom: 1em;
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
 }
 
-.menu_items li:first {
-  float: left;
-  padding-left: 0;
-  padding-right: 10px;
-}
-
- ul img {
-  display: block;
-  width: 400px;
-}
-
-.footerContacts h2 {
-
+.menuItems #secondImage {
+  width: 100vw;
+  height: 35vh;
+  overflow: hidden;
+  margin-bottom: 2em;
 }
 
 .footerContacts {
@@ -90,6 +92,7 @@ a {
   padding: 1em;
   background-color: #383838;
   color: #f4f4f4;
+  margin: 1em;
 }
 
 .footerContacts li {
@@ -111,4 +114,26 @@ a {
 
 .footerContacts a:active {
   color: #e6d1cc;
+}
+
+@media (max-width: 500px) {
+  .quoting {
+    font-size: 1em;
+  }
+
+  .fullScreenImage {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .fullScreenImage img {
+    width: 250vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .nav .socials {
+    display: none;
+  }
 }
