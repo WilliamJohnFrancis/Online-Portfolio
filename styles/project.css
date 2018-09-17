@@ -1,0 +1,105 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  position: absolute;
+  border: 1px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  right: 5%;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  color: #383838;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #e6d1cc;
+}
+
+.nav a:active {
+  color: #e6d1cc;
+}
+
+.header {
+  margin: 1em;
+}
+
+.selectors {
+  position: relative;
+  overflow: hidden;
+/* Need to fix the width so when it's smaller it doesn't spill out */
+  width: 500px;
+  margin: 5% auto 0;
+  display: block;
+}
+
+.selectors a img {
+  padding-bottom: 1em;
+}
+
+
+.footerContacts {
+  text-align: center;
+  padding: 1em;
+  background-color: #383838;
+  color: #f4f4f4;
+  margin: 1em;
+}
+
+.footerContacts li {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  text-align: right;
+  display: inline;
+}
+
+.footerContacts a {
+  color: #f4f4f4;
+}
+
+.footerContacts a:hover {
+  text-decoration: underline;
+  text-decoration-color: #e6d1cc;
+}
+
+.footerContacts a:active {
+  color: #e6d1cc;
+}
+
+@media (max-width: 500px) {
+  .nav .socials {
+    display: none;
+  }
+
+  .header {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    right: 0;
+    padding-bottom: 1em;
+  }
+
+  .selectors {
+    display: inline-block;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+}
