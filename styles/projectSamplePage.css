@@ -1,4 +1,4 @@
-body {
+  body {
   background-color: #f4f4f4;
   margin: 0;
 }
@@ -24,7 +24,7 @@ a {
 .nav a {
   display: inline-block;
   padding: 10px;
-  color: #383838;
+  color: #f4f4f4;
 }
 
 .nav a:hover {
@@ -35,9 +35,6 @@ a {
 .nav a:active {
   color: #e6d1cc;
 }
-
-
-
 
 .footerContacts {
   text-align: center;
@@ -66,4 +63,52 @@ a {
 
 .footerContacts a:active {
   color: #e6d1cc;
+}
+
+@media (max-width: 500px) {
+  .quoting {
+    font-size: 1em;
+  }
+
+  .fullScreenImage {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .fullScreenImage img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .nav .socials {
+    display: none;
+  }
+
+  .summary h2{
+    text-align: center;
+  }
+
+  .summary p {
+    text-align: center;
+    margin: 3em;
+  }
+
+  .images img{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .images {
+    text-align: center;
+  }
+
+  .images p {
+    padding-bottom: 2em;
+  }
+
+  .images h3 {
+    padding-top: 1em;
+  }
 }

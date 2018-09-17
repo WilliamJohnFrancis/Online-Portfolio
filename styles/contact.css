@@ -36,8 +36,9 @@ a {
   color: #e6d1cc;
 }
 
-
-
+.header {
+  margin: 1em;
+}
 
 .footerContacts {
   text-align: center;
@@ -72,5 +73,23 @@ a {
 @media (max-width: 500px) {
   .nav .socials {
     display: none;
+  }
+
+  .header {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    right: 0;
+    padding-bottom: 1em;
+  }
+
+  .heading {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .body {
+    text-align: center;
+    margin: 3em;
   }
 }
