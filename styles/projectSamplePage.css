@@ -1,4 +1,4 @@
-  body {
+body {
   background-color: #f4f4f4;
   margin: 0;
 }
@@ -11,7 +11,7 @@ a {
   position: absolute;
   border: 1px;
   list-style: none;
-  margin: 0;
+  margin: -2em;
   padding: 0;
   text-align: right;
   right: 5%;
@@ -24,7 +24,7 @@ a {
 .nav a {
   display: inline-block;
   padding: 10px;
-  color: #f4f4f4;
+  color: #383838;
 }
 
 .nav a:hover {
@@ -35,6 +35,56 @@ a {
 .nav a:active {
   color: #e6d1cc;
 }
+
+.fullScreenImage {
+  position: relative;
+  overflow: hidden;
+/* Need to fix the width so when it's smaller it doesn't spill out */
+  width: 70vw;
+  margin: 5% auto 0;
+  display: block;
+  padding-top: 10%;
+  text-align: center;
+  z-index: -1;
+}
+
+.fullScreenImage img {
+  padding-bottom: 1em;
+  height: 50vh;
+}
+
+.summary {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.summary h2 {
+  font-size: 3em;
+}
+
+.images {
+  text-align: center;
+  overflow: hidden;
+}
+
+.images img {
+  width: 50%;
+}
+
+.images h3{
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.images p {
+  padding-bottom: 2em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 
 .footerContacts {
   text-align: center;
@@ -66,10 +116,6 @@ a {
 }
 
 @media (max-width: 500px) {
-  .quoting {
-    font-size: 1em;
-  }
-
   .fullScreenImage {
     width: 100vw;
     overflow: hidden;
@@ -79,20 +125,30 @@ a {
     width: 100%;
     height: auto;
     overflow: hidden;
-    z-index: -1;
+    z-index: -5;
   }
 
   .nav .socials {
     display: none;
   }
 
+  .nav {
+    right: 3.5em;
+    top: 2em;
+  }
+
+  .summary {
+    padding: 0;
+  }
+
   .summary h2{
     text-align: center;
+    font-size: 2em;
   }
 
   .summary p {
     text-align: center;
-    margin: 3em;
+    width: 100vw;
   }
 
   .images img{
