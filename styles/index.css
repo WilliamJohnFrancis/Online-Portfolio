@@ -51,7 +51,7 @@ p, li {
 }
 
 .imgContainer {
-  background-image: url(../images/HeadImage.jpg);
+  background-image: url(../images/HeadImage.png);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,16 +69,7 @@ p, li {
 
 .nameTitle {
   display: inline-block;
-}
-
-.profilePic {
-  height: 10em;
-  border-radius: 50%;
-  position: relative;
-  border: 5px solid #f4f4f4;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  top: 1.5em;
+  margin-top: 35%;
 }
 
 .innerContainer h1 {
@@ -89,9 +80,22 @@ p, li {
   font-size: 2em;
 }
 
+.profilePic {
+  height: 10em;
+  border-radius: 50%;
+  position: relative;
+  border: 5px solid #f4f4f4;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  top: 2em;
+  margin-left: 1em;
+}
+
 .summary {
   height: auto;
   margin: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   font-size: 1em;
 }
 
@@ -179,10 +183,16 @@ p, li {
 
   .nav {
     width: auto;
+    padding-top: 1em;
   }
 
   .nav .socials {
     display: none;
+  }
+
+  .nameTitle {
+    display: inline-block;
+    margin-top: 5%;
   }
 
   .innerContainer {
@@ -200,11 +210,10 @@ p, li {
   }
 
   .profilePic {
-    margin-top: 4em;
+    margin-top: -1em;
     height: 15em;
     border-radius: 50%;
   }
-
 
   .summary {
     text-align: center;

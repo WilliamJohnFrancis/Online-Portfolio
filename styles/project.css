@@ -52,13 +52,14 @@ p, li {
   position: relative;
   overflow: hidden;
 /* Need to fix the width so when it's smaller it doesn't spill out */
-  width: 500px;
   margin: 5% auto 0;
   display: block;
+  text-align: center;
 }
 
 .selectors a img {
-  padding-bottom: 1em;
+  padding: 1em;
+  width: 40vw;
 }
 
 
@@ -109,5 +110,11 @@ p, li {
     width: 100vw;
     overflow: hidden;
     position: relative;
+  }
+
+  .selectors a img {
+    padding: 0;
+    padding-bottom: 1em;
+    width: 100vw;
   }
 }
