@@ -7,6 +7,14 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p, li {
+  font-family: 'Roboto Slab', serif;
+}
+
 .nav {
   position: absolute;
   border: 1px;
