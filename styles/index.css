@@ -111,7 +111,7 @@ p, li {
   height: auto;
 }
 
-.menuItems {
+/* .menuItems {
   list-style: none;
   position: relative;
   text-align: center;
@@ -121,7 +121,68 @@ p, li {
 .menuItems img {
   height: auto;
   width: 45vw;
+} */
+
+.menuItems {
+  position: relative;
+  overflow: hidden;
+  margin: 5% auto 0;
+  display: block;
+  text-align: center;
 }
+
+.menuItems a {
+  display: block;
+}
+
+.picture {
+    width: 40vw;
+    display: block;
+}
+
+.firstImage {
+  height: auto;
+  margin: 1em;
+  padding: 0;
+  border: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #848484;
+}
+
+.firstImage:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
 
 .footerContacts {
   text-align: center;
@@ -137,14 +198,16 @@ p, li {
   margin: auto;
   padding: 5px;
   border: auto;
+  font-size: 2em;
 }
 
 .footerContacts li {
   list-style: none;
-  margin: 0;
+  margin-top: 1em;
   padding: 1em;
   text-align: right;
   display: inline;
+  font-size: 1.5em;
 }
 
 .footerContacts a {
@@ -158,10 +221,6 @@ p, li {
 
 .footerContacts a:active {
   color: #e6d1cc;
-}
-
-.footerContacts h2{
-  font-size: 1em;
 }
 
 
@@ -209,6 +268,15 @@ p, li {
     font-size: 1.5em;
   }
 
+  .firstImage img {
+    width: 100vw;
+    padding-bottom: 1em;
+  }
+
+  .firstImage {
+    margin: auto;
+  }
+
   .profilePic {
     margin-top: -1em;
     height: 15em;
@@ -237,6 +305,10 @@ p, li {
   }
 
   .footerContacts h2 {
+    font-size: 1em;
+  }
+
+  .footerContacts li {
     font-size: 1em;
   }
 }
