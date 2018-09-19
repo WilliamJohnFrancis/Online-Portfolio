@@ -133,6 +133,13 @@ p, li {
   color: #e6d1cc;
 }
 
+@media (max-width: 1000px) {
+  .overlay p {
+    font-size: 1em;
+  }
+}
+
+
 @media (max-width: 500px) {
   .nav .socials {
     display: none;
