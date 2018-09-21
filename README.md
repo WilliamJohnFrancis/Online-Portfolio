@@ -2,6 +2,7 @@
 
 ### Visit me at [williamjohnfrancis.github.io](https://williamjohnfrancis.github.io/)
 
+### My Github Repo [Repo](https://github.com/WilliamJohnFrancis/williamjohnfrancis.github.io)
 
 ## Project goals
 > Keep it simple!
@@ -17,6 +18,14 @@ The design process included:
 * Brain storming what type of website I wanted
 * Googling for minimalist websites
 * Dissecting their HTML and CSS via browser's 'Inspect' tool to see how things work
+
+## The Process 
+
+When beginning the process of designing and creating the wireframe and low fidelity mockups I did not realise the importance of understanding what the content would be before designing. I was headed on the right track just missing a few key components.
+
+Understanding what would be the contents of the page is extremely important in how the page is going to be laid out. Specifically this will be a portfolio site which will be viewed by employers. So I should be thinking about what employers would want  to see and put that higher on the website. 
+
+### Begining Design
 
 When drawing the wireframe I used pen and paper which I personally found to be the easiest method.
 
@@ -65,3 +74,19 @@ In addition, **@media queries** were also used to account for specific elements.
 ## Intended audience
 
 The intended audience for my portfolio would be that of programmers and employers.
+
+## Short Answers 
+
+1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+
+> Starting at 1980 IBM (International Business Machines) hired Paul Allen and Bill Gates to develop an operating system for a new PC with an increase of computer usage in the United States over the 1980’s. During the 90’s The internet, World Wide Web (WWW) and Tim Berners-Lee came into play. Where WWW launched to the public in 1991 as well as one of the biggest search engines (Google) being founded in 1993. Additionally, the internet in the 21st century has continued to grow with over one billion PC's being sold and websites such as Facebook, Amazon, eBay, etc becoming bigger and bigger.  
+
+2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+> Firstly you need an internet connection which will allow for you to send and receive data via the web. Transmission Control Protocol (TCP) and Internet Protocol (IP) are communication conventions used to associate network devices on the internet. It defines how data should travel across the web. 
+> When on a website you will see in the url bar the domain name, this name is sent to a domain name server (DNS). The DNS acts like an address book for websites. It will see the domain name and search for the corresponding real address. Essential it is a string of numbers that is called an IP address. 
+
+3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+> Internet Connection:
+> The improvement of technology constantly changes, higher connection speeds are need to keep up with it. In the beginning there was Dial-Up or Analog 56k which was extremely limiting especially because a computer and a telephone couldn’t be used at the same time. Then there was Digital Subscriber Line (DSL) which was an improvement. Allowing for the use of computers and phones, although, connection speeds could be considered slow (128k to 8Mbps). There were different iterations of DSL; DSL 2 which improved speeds. Then there is cable. Cable has many variants although, the main two are twisted pair cables (Ethernet) which contain up to eight wires wound together in pairs to minimize interference. As well as, Coax cable which connects through a cable modem and operates over cable TV lines. Finally, there is fiber optic cable. Instead of insulated metal wires transmitting electrical signals, whereas fiber optics work using strands of glass and pulses of light.
