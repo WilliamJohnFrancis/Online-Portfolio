@@ -26,14 +26,15 @@ When beginning the process of designing and creating the wireframe and low fidel
 Understanding what would be the contents of the page is extremely important in how the page is going to be laid out. Specifically this will be a portfolio site which will be viewed by employers. So I should be thinking about what employers would want  to see and put that higher on the website. 
 
 ### Begining Design
+##### Links to all planning images (https://github.com/WilliamJohnFrancis/williamjohnfrancis.github.io/tree/master/Planning)
 
 When drawing the wireframe I used pen and paper which I personally found to be the easiest method.
 
-<!-- Need to add photos of wireframe -->
+![Wire Frames](https://github.com/WilliamJohnFrancis/williamjohnfrancis.github.io/blob/master/Planning/42247762_1430651713731629_6739607481963511808_n.jpg)
 
 After the completion of the wireframe I created a low fidelity mockup that differed from the final website.
 
-<!-- Need to add an image here of lofi mockups -->
+![Low Fidelity Mockup Phone](https://github.com/WilliamJohnFrancis/williamjohnfrancis.github.io/blob/master/Planning/2%20LoFi%20Phone.jpg)
 
 I wanted to keep my website simple, with only three pages; with one that contains all of my projects:
 
@@ -47,6 +48,10 @@ I wanted to keep my website simple, with only three pages; with one that contain
 The navigation is done through a navigation bar at the top of the page. This was done because I was thinking of future implementations to the website. They would be increased amount of projects as well as a complete redesign of the layout.
 
 The choice of fonts was a result of popularity as well as the clean, simplistic looking style they both have. Moreover, the color was chosen due to the style of portfolio that I was aiming for (Professional).
+
+### Site Map
+
+![Website Map](https://github.com/WilliamJohnFrancis/williamjohnfrancis.github.io/blob/master/Planning/Screen%20Shot%202018-09-19%20at%203.34.00%20pm.png)
 
 ## Encountered difficulties
 ### Landing Page
